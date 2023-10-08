@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: arial,sans-serif;
+}
+.container{
+    background-color: #f0f0f0;
+    padding:20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #c4c4c4,-10px -10px 20px #ffffff;
+
+}
+.note-pad{
+background-color: #f0f0f0;
+padding: 20px;
+border-radius: 20px;
+box-shadow: 10px 10px 20px #c4c4c4,-10px -10px 20px #ffffff;
+text-align: center;
+}
+h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+textarea{
+    width:100%;
+    height: 100px;
+    padding:10px;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 10px #c4c4c4,inset -5px -5px 20px #ffffff;
+
+}
+button{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding:10px 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #c4c4c4,inset -5px -5px 20px #ffffff;
+}
+ul.notes-list{
+    list-style: none;
+    padding:0;
+    text-align: left;
+}
+ul.notes-list li{
+    background-color: #f0f0f0;
+    padding:10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 10px #c4c4c4,inset -5px -5px 20px #ffffff;
+}
+button:hover{
+    background-color: rgb(100, 0, 100);
+}
