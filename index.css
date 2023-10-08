@@ -60,3 +60,9 @@ ul.notes-list li{
 button:hover{
     background-color: rgb(100, 0, 100);
 }
+footer{
+    text-align: center;
+}
+span{
+    color:#4CAF50;
+}
